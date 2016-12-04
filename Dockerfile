@@ -1,5 +1,5 @@
-FROM drydock/u14:{{%TAG%}}
+FROM centos:centos6.8
 
-ADD . /u14rub
+ADD . /c6ruby
 
-RUN /u14rub/install.sh
+RUN /c6ruby/install.sh

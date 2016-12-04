@@ -1,7 +1,7 @@
-u14rub
+c6ruby
 ================
 
-Shippable CI image for Ruby on Ubuntu 14.04. Available versions are:
+Shippable CI image for Ruby on CentOS 6.x. Available versions are:
 
 1. 1.8.7
 2. 1.9.3 
