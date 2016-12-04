@@ -15,7 +15,7 @@ curl -sSL https://get.rvm.io | bash -s stable
 echo '[[ -s /etc/profile.d/rvm.sh ]] && source /etc/profile.d/rvm.sh' >> $HOME/.bashrc
 [[ -s /etc/profile.d/rvm.sh ]] && source /etc/profile.d/rvm.sh
 
-cd /c6rub
+cd /c6ruby
 mv .gemrc $HOME/.gemrc
 
 for file in /c6ruby/version/*;
