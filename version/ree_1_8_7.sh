@@ -1,6 +1,7 @@
 #!/bin/bash -e
 
 echo "================= Installing REE 1.8.7 ==================="
+source /etc/profile.d/rvm.sh
 rvm requirements
 rvm install ree-1.8.7
 rvm use ree-1.8.7

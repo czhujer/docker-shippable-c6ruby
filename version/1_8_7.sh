@@ -1,6 +1,7 @@
 #!/bin/bash -e
 
 echo "================= Installing Ruby 1.8.7 ==================="
+source /etc/profile.d/rvm.sh
 rvm requirements
 rvm install 1.8.7
 rvm use 1.8.7
