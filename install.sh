@@ -1,13 +1,7 @@
 #!/bin/bash -e
 
-#sudo apt-get clean
-#sudo mv /var/lib/apt/lists /tmp
-#sudo mkdir -p /var/lib/apt/lists/partial
-#sudo apt-get clean
-#sudo apt-get update
-
 yum clean all
-yum update -y
+yum update -y -q
 
 echo "================= Updating global rvm packages ==================="
 gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
@@ -25,3 +19,6 @@ done
 
 echo "================= Cleaning package lists ==================="
 yum clean all
+
+echo "================= printing result ==================="
+rvm list
