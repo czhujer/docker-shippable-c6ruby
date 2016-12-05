@@ -5,6 +5,7 @@ source /etc/profile.d/rvm.sh
 rvm requirements
 rvm install 1.8.7
 rvm use 1.8.7
+rm -rf /usr/local/rvm/src/ruby-1.8.7/*
 
 # Install ruby gems
 gem install bundler
