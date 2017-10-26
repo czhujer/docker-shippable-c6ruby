@@ -14,6 +14,9 @@ do
   $file
 done
 
+echo "================= adding packages for test ENV==================="
+yum install augeas-devel -y
+
 echo "================= Cleaning package lists ==================="
 yum clean all
 
