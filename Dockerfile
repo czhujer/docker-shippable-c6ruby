@@ -1,4 +1,4 @@
-FROM czhujer/shippable-c6base:v1.0-1
+FROM czhujer/shippable-c6base:v1.1
 
 ADD . /c6ruby
 
